@@ -1,4 +1,4 @@
-# more-twitter-analysis
+# EXTRA CREDIT: 49ers Twitter Analysis
 
 Building on my previous project where I analyzed tweets from 2020, including the relative frequency of different language tweets, and the frequency of tweets about Coronavirus in the early days of the pandemic.
 
