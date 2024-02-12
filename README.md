@@ -11,6 +11,7 @@ This is the command for mapping:
 ```
 $ for file in /data/Twitter\ dataset/geoTwitter20-01-*.zip; do 
 unzip -p "$file" \
+| jq '.place.country_code' \
 | grep "49ers" \
 | sort \
 | uniq -c \
